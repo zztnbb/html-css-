@@ -1,0 +1,203 @@
+/* 版型 */
+.center{ 
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.fz14{
+    font-size: 14px;
+}
+
+.cRed{
+    color:#FF3232;
+}
+
+
+/* 版型 */
+
+/* 顶部 b */
+.top{
+    height: 47px;
+    background-color: #fff;
+
+}
+.top .top_c{
+    height:47px;
+    /* background-color: rgb(109, 136, 181);  中心位置*/
+    line-height: 47px;
+}
+/* 顶部 e */
+
+/* logo b */
+.logo{
+    height:99px;
+    background-color: lightcoral;
+}
+/* .logo .l_c{
+    height:99px;
+   background-color: bisque; 
+}  可有可无，明确center的位置即可*/
+
+/* logo b ，冒号报错了，好怪*/
+.logo .l_left h1 a {
+	display: inline-block;
+	width: 221px;
+	height: 97px;
+	background: url(../images/logo.png);
+    text-indent: -999px;
+}  
+
+.logo .l_center{
+    width:296px;
+    height:28px;
+    background-color: #fff;
+    padding: 1px;
+    display: flex; 
+    /* 让文本框和button水平排列，很牛逼的样子 */
+    margin-top: 34px;
+    margin-left: 70px;
+    border-radius:5px;
+    /* radius半径设置圆角 */
+    
+}
+
+.logo .l_center .txt{
+    width:236px;
+    height:28px;
+    outline:none;
+}
+
+.logo .l_center .btn{
+    width:60px;
+    height:28px;
+    background-color: #e50a4f;
+    color:#fff;
+    border-radius:0px 5px 5px 0px;
+    /* 左上右上右下左下 */
+}
+
+.logo .l_right{
+    margin-top: 35px;
+}
+
+.logo .l_right li{
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.logo .l_right a{
+    color:#fff;
+    /* a标签只能这样改颜色;*/
+} 
+
+.logo .l_right input{
+    width:56px;
+    height:30px;
+    font-size: 14px;
+}
+
+.logo .l_right li b{
+    display:inline-block;
+    width:24px;
+    height:20px;
+    background: url(../images/sprite.png);
+    vertical-align: middle;
+}
+
+.logo .l_right .sina{
+    background-position: 0 -27px;;
+}
+ /* logo e  */
+
+/* 内容 B  */
+
+
+/* 内容 E */
+    
+/* 底部B  */
+.foot{
+    height:273px;
+    background-color: #160404;
+    padding:10px; 
+}
+
+.foot .f_border{
+    height:273px;
+    border:1px solid #FFD283;
+    position: relative;
+}
+
+.foot .f_border b{
+    position: absolute;
+    width:17px;
+    height:17px;
+    background: url(../images/circle.png);
+
+}
+
+.foot .f_border  .b1{
+    top:-1px;
+    left:-1px;
+    background-position: right bottom;
+}
+.foot .f_border .b2{
+    top:-1px;
+    right:-1px;
+    background-position: left bottom;
+}
+.foot .f_border .b3{
+    bottom:-1px;
+    left:-1px;
+    background-position: right top;
+}
+.foot .f_border .b4{
+    bottom:-1px;
+    right:-1px;
+    background-position: left top;
+}
+
+.foot .f_left{
+    margin-top: 55px;
+    color:#CCC;
+
+
+}
+
+.foot .f_left li{
+    height:33px;
+    line-height: 33px;
+}
+
+.foot .f_right{
+    margin-top: 55px;
+}
+
+.foot .f_right li {
+    float:right;
+    width:105px;
+    height:100px;
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+.foot .f_right li a{
+    display: inline-block;
+    color:#666666;
+    text-align: center;
+}
+
+.foot .f_right li s{
+    display:inline-block;
+    width:105px;
+    height:105px;
+    background: url(../images/sprite.png) -327px 0;
+    /* 两个px分别表示距离左边和顶边 */
+    margin-bottom: 10px;
+    /* 设小图片距离边框底部10px达到文字图片有间距 */
+}
+
+/* 底部E */
+
